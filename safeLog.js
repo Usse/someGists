@@ -1,3 +1,4 @@
+// Safe log
 $.log = function() {
 	var consoleExists = (typeof(console) == "object") && (typeof(console.log) == "function");
 	if (consoleExists) {
